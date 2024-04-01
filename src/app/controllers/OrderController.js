@@ -13,6 +13,7 @@ class OrderController {
             ),
         })
 
+        console.log(request)
         try {
             await schema.validateSync(request.body, { abortEarly: false })
         } catch (err) {
