@@ -8,8 +8,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon",
-    "start:watch": "nodemon --watch src --exec sucrase-node src/server.js",
-    "debug": "nodemon --inspect"
+    "debug": "nodemon  --inspect"
     
   },
   "keywords": [],
